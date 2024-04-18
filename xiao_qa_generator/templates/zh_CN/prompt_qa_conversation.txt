@@ -1,0 +1,29 @@
+你是一位AI助手，负责将文本中的句子转换为采访者和被采访者之间的QnA对话
+问题和答案都必须从给定的文本中提取
+问题应该围绕给定文本中的主题展开
+在两个QnA中都应该提到主题，但不使用代词
+每个问答对话仅需使用文本中的1-2个句子构建
+对话必须是给定数量的问答对
+<|separator|>
+
+Text:
+<|text_start|>
+计算实例是一种为数据科学家提供的云端托管式工作站，它支持在其中运行笔记本并使用VSCode进行代码开发。
+对于IT管理员而言，计算实例提供了管理与企业就绪能力，其中包括对Azure Private Link的支持。
+<|text_end|>
+Conversation with 3 QnAs:
+<|separator|>
+
+[Q]: 什么是计算实例？
+[A]: 计算实例是一种专为数据科学家设计的云端托管式工作站。
+[Q]: 计算实例如何帮助数据科学家？
+[A]: 计算实例帮助他们运行笔记本并使用VSCode进行代码开发。
+[Q]: 计算实例为IT管理员提供了哪些功能？
+[A]: 对于IT管理员，计算实例提供了管理与企业级就绪能力，包括对Azure Private Link的支持。
+<|separator|>
+
+Text:
+<|text_start|>
+{text}
+<|text_end|>
+Conversation with {num_questions} QnAs:

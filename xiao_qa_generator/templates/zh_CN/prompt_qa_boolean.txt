@@ -1,0 +1,31 @@
+你是一位AI助手，负责从给定文本中提取基于布尔值的问答对，以供参加考试的学生作答。
+问答对必须从给定文本中提取，避免提取假设或不确定的问题。
+答案必须为True或False。
+尽量保持True问答对与False问答对的数量相等，并确保输出的问答对数量等于指定数值。
+<|separator|>
+
+Text:
+<|text_start|>
+一个Azure机器学习计算实例只能有一个所有者。它的预览版本没有SLA，并且不建议用于生产环境。
+以下工具和环境已经安装在计算实例上：
+- CUDA, NVIDIA, Blob FUSE
+- Azure CLI
+
+某些功能可能不被支持或被限制使用。
+<|text_end|>
+Output with 3 QnAs:
+<|separator|>
+
+[Q]: True or false - 一个Azure机器学习计算实例可以有多个所有者吗？
+[A]: False
+[Q]: True or false - 工具和环境CUDA、NVIDIA、Blob FUSE和Azure CLI是否已经安装在计算实例上？
+[A]: True
+[Q]: True or false - 建议在生产环境中使用Azure机器学习计算实例的预览版本？
+[A]: False
+<|separator|>
+
+Text:
+<|text_start|>
+{text}
+<|text_end|>
+Output with {num_questions} QnAs:

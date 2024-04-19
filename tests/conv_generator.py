@@ -1,4 +1,6 @@
 from langchain_community.chat_models import ChatTongyi
+
+from xiao_qa_generator.formatter.sharegpt import ShareGPTFormatter
 from xiao_qa_generator.generator.conversation import ConversationGenerator
 
 
@@ -16,6 +18,12 @@ async def main():
         print(f"Q: {question}")
         print(f"A: {answer}")
         print("---------")
+
+    # 导出到文件
+    ShareGPTFormatter.export_to_file(
+        output_path=r"E:\WorkSpace\GithubWorkSpace\xiao-qa-generator\xiao_qa_generator\output\sharegpt.json",
+        inputs=[result["question_answers"]]
+    )
 
 
 if __name__ == "__main__":

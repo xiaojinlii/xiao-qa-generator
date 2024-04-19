@@ -1,4 +1,6 @@
 from langchain_community.chat_models import ChatTongyi
+
+from xiao_qa_generator.formatter.qa_json import QAJsonFormatter
 from xiao_qa_generator.generator.qa import QAGenerator
 
 
@@ -21,6 +23,12 @@ async def main():
         print(f"Q: {question}")
         print(f"A: {answer}")
         print("---------")
+
+    # 导出到文件
+    QAJsonFormatter.export_to_file(
+        output_path=r"E:\WorkSpace\GithubWorkSpace\xiao-qa-generator\xiao_qa_generator\output\qa.json",
+        inputs=result["question_answers"],
+    )
 
 
 if __name__ == "__main__":

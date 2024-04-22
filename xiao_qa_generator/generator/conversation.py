@@ -1,5 +1,5 @@
 import os
-from typing import Dict, Tuple, List
+from typing import Dict, Tuple, List, Optional, Literal
 
 from langchain_core.language_models import BaseChatModel
 from langchain_core.messages import BaseMessage
@@ -9,8 +9,26 @@ from .qa import QAGenerator
 
 class ConversationGenerator(QAGenerator):
 
-    def __init__(self, chat_model: BaseChatModel):
-        super().__init__(chat_model, template_name="prompt_qa_conversation.txt")
+    def __init__(
+            self,
+            chat_model: BaseChatModel,
+            temperature: float = 0.7,
+            template: Optional[str] = None,
+            template_path: Optional[str] = None,
+            template_name: Optional[str] = None,
+            language: Literal["en", "zh_CN"] = "zh_CN"
+    ):
+        if template is None and template_path is None and template_name is None:
+            template_name = "prompt_qa_conversation.txt"
+
+        super().__init__(
+            chat_model,
+            temperature=temperature,
+            template=template,
+            template_path=template_path,
+            template_name=template_name,
+            language=language
+        )
 
     def _parse(self, response: BaseMessage) -> Dict:
         content = response.content

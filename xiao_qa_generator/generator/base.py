@@ -15,12 +15,14 @@ class BaseGenerator(ABC):
     def __init__(
             self,
             chat_model: BaseChatModel,
+            temperature: float = 0.7,
             template: Optional[str] = None,
             template_path: Optional[str] = None,
             template_name: Optional[str] = None,
             language: Literal["en", "zh_CN"] = "zh_CN"
     ):
         self.chat_model = chat_model
+        self.temperature = temperature
         self._TEMPLATES_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "templates", language)
 
         if template is not None:
@@ -39,7 +41,7 @@ class BaseGenerator(ABC):
         :param input_variables:对应template中的参数
         """
         messages = self._get_messages(**input_variables)
-        response = self.chat_model.invoke(messages)
+        response = self.chat_model.invoke(messages, temperature=self.temperature)
         return self._parse(response)
 
     async def generate_async(self, **input_variables: Any) -> Dict:
@@ -48,7 +50,7 @@ class BaseGenerator(ABC):
         :param input_variables:对应template中的参数
         """
         messages = self._get_messages(**input_variables)
-        response = await self.chat_model.ainvoke(messages)
+        response = await self.chat_model.ainvoke(messages, temperature=self.temperature)
         return await self._parse_async(response)
 
     @abstractmethod

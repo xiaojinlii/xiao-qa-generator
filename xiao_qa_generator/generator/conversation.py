@@ -23,7 +23,7 @@ class ConversationGenerator(QAGenerator):
         token_usage = self._merge_token_usage(token_usage, token_usage2)
 
         return {
-            "question_answers": list(zip(questions, answers)),
+            "output": list(zip(questions, answers)),
             "token_usage": token_usage,
         }
 
@@ -38,7 +38,7 @@ class ConversationGenerator(QAGenerator):
         token_usage = self._merge_token_usage(token_usage, token_usage2)
 
         return {
-            "question_answers": list(zip(questions, answers)),
+            "output": list(zip(questions, answers)),
             "token_usage": token_usage,
         }
 

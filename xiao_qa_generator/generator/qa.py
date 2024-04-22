@@ -14,7 +14,7 @@ class QAGenerator(BaseGenerator):
         questions, answers = self._parse_qa(content)
         assert len(questions) == len(answers), "Parsing error: Unequal question answer count"
         return {
-            "question_answers": list(zip(questions, answers)),
+            "output": list(zip(questions, answers)),
             "token_usage": token_usage,
         }
 

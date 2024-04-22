@@ -19,7 +19,7 @@ async def main():
     # result = await qa_generator.generate_async(text=text, num_words=50)  # use prompt_qa_summary.txt
     print(f"token_usage: {result['token_usage']}")
     print("---------")
-    for question, answer in result["question_answers"]:
+    for question, answer in result["output"]:
         print(f"Q: {question}")
         print(f"A: {answer}")
         print("---------")
@@ -27,7 +27,7 @@ async def main():
     # 导出到文件
     QAJsonFormatter.export_to_file(
         output_path=r"E:\WorkSpace\GithubWorkSpace\xiao-qa-generator\xiao_qa_generator\output\qa.json",
-        inputs=result["question_answers"],
+        inputs=result["output"],
     )
 
 

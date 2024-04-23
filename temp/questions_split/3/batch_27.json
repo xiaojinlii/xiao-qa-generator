@@ -1,0 +1,22 @@
+[
+    {
+        "question": "Android操作系统是由谁开发的？它的最新版本名称是什么？Android系统与iOS系统有哪些主要区别？",
+        "answer": "Android操作系统是由谁开发的？<|sep|>Android的最新版本名称是什么？<|sep|>Android系统与iOS系统有哪些主要区别？"
+    },
+    {
+        "question": "Android应用程序主要使用什么语言编写？开发Android应用需要哪些工具？Android Market（Google Play）是如何开始的？",
+        "answer": "Android应用程序主要使用什么语言编写？<|sep|>开发Android应用需要哪些工具？<|sep|>Android Market（Google Play）是如何开始的？"
+    },
+    {
+        "question": "Android系统的开放源代码特性带来了哪些优势？它对硬件设备的要求是什么？Android手机与非Android手机相比有哪些优缺点？",
+        "answer": "Android系统的开放源代码特性带来了哪些优势？<|sep|>Android对硬件设备的要求是什么？<|sep|>Android手机与非Android手机相比有哪些优缺点？"
+    },
+    {
+        "question": "Google Play商店中的应用安装流程是怎样的？Android系统如何处理多任务？Android设备如何与其他设备进行数据同步？",
+        "answer": "Google Play商店中的应用安装流程是怎样的？<|sep|>Android系统如何处理多任务？<|sep|>Android设备如何与其他设备进行数据同步？"
+    },
+    {
+        "question": "Android系统的安全模型是如何工作的？用户如何保护他们的Android设备免受恶意软件攻击？Android设备的电池管理功能有哪些？",
+        "answer": "Android系统的安全模型是如何工作的？<|sep|>用户如何保护他们的Android设备免受恶意软件攻击？<|sep|>Android设备的电池管理功能有哪些？"
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "question": "iPhone是由哪家公司制造的？它的最新型号是什么？iPhone的操作系统叫什么名字？",
+        "answer": "iPhone是由哪家公司制造的？<|sep|>iPhone的最新型号是什么？<|sep|>iPhone的操作系统叫什么名字？"
+    },
+    {
+        "question": "iPhone的首次发布日期是什么时候？它如何改变了手机行业？iPhone的主要竞争对手有哪些？",
+        "answer": "iPhone的首次发布日期是什么时候？<|sep|>iPhone如何改变了手机行业？<|sep|>iPhone的主要竞争对手有哪些？"
+    },
+    {
+        "question": "iPhone的屏幕分辨率通常是多少？它的电池续航能力如何？iPhone支持哪些无线充电标准？",
+        "answer": "iPhone的屏幕分辨率通常是多少？<|sep|>iPhone的电池续航能力如何？<|sep|>iPhone支持哪些无线充电标准？"
+    },
+    {
+        "question": "iPhone的App Store是如何工作的？用户如何通过App Store下载应用程序？iPhone的安全功能有哪些？",
+        "answer": "iPhone的App Store是如何工作的？<|sep|>用户如何通过App Store下载应用程序？<|sep|>iPhone的安全功能有哪些？"
+    },
+    {
+        "question": "iPhone的相机功能有哪些特点？它与其他智能手机相比有何优势？iPhone的保修政策是怎样的？",
+        "answer": "iPhone的相机功能有哪些特点？<|sep|>iPhone与其他智能手机相比有何优势？<|sep|>iPhone的保修政策是怎样的？"
+    }
+]

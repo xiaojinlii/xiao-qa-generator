@@ -1,0 +1,22 @@
+[
+    {
+        "question": "Android操作系统是由哪家公司开发的？它的第一个版本是什么时候发布的？",
+        "answer": "Android操作系统是由哪家公司开发的？<|sep|>Android的第一个版本是什么时候发布的？"
+    },
+    {
+        "question": "Google Play商店在Android系统中起什么作用？如何在设备上安装应用？",
+        "answer": "Google Play商店在Android系统中起什么作用？<|sep|>如何在Android设备上安装应用？"
+    },
+    {
+        "question": "最新的Android版本叫什么名字？它相比前一个版本有哪些改进？",
+        "answer": "最新的Android版本叫什么名字？<|sep|>最新的版本相比前一个有哪些改进？"
+    },
+    {
+        "question": "Android手机如何进行屏幕截图？截图文件通常保存在哪里？",
+        "answer": "Android手机如何进行屏幕截图？<|sep|>截图文件通常被保存在哪个位置？"
+    },
+    {
+        "question": "Android系统支持哪些第三方应用市场？与Google Play相比有哪些不同？",
+        "answer": "Android系统支持哪些第三方应用市场？<|sep|>这些市场与Google Play有哪些不同？"
+    }
+]

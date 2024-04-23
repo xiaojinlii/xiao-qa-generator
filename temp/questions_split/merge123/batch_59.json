@@ -1,0 +1,62 @@
+[
+    {
+        "question": "最早的社交媒体平台是什么时候出现的？",
+        "answer": "最早的社交媒体平台是什么时候出现的？"
+    },
+    {
+        "question": "Facebook是如何改变社交媒体格局的？",
+        "answer": "Facebook是如何改变社交媒体格局的？"
+    },
+    {
+        "question": "在社交媒体上，什么是“点赞”文化的影响？",
+        "answer": "在社交媒体上，什么是“点赞”文化的影响？"
+    },
+    {
+        "question": "如何保护自己免受社交媒体上的网络欺凌？",
+        "answer": "如何保护自己免受社交媒体上的网络欺凌？"
+    },
+    {
+        "question": "社交媒体对青少年的心理健康有哪些可能的影响？",
+        "answer": "社交媒体对青少年的心理健康有哪些可能的影响？"
+    },
+    {
+        "question": "最流行的社交媒体平台有哪些？它们的主要用户群体是什么年龄段？",
+        "answer": "最流行的社交媒体平台有哪些？<|sep|>最流行的社交媒体平台的主要用户群体是什么年龄段？"
+    },
+    {
+        "question": "Facebook是如何起步的？它的创始人是谁？",
+        "answer": "Facebook是如何起步的？<|sep|>Facebook的创始人是谁？"
+    },
+    {
+        "question": "Instagram上的短视频功能叫什么？与TikTok相比有哪些不同？",
+        "answer": "Instagram的短视频功能叫什么？<|sep|>Instagram的短视频功能与TikTok有何不同？"
+    },
+    {
+        "question": "Twitter的推文字数限制是多少？这个限制是如何影响用户的交流方式的？",
+        "answer": "Twitter的推文字数限制是多少？<|sep|>Twitter的推文字数限制如何影响用户的交流方式？"
+    },
+    {
+        "question": "LinkedIn通常用于什么目的？它的主要功能有哪些？",
+        "answer": "LinkedIn通常用于什么目的？<|sep|>LinkedIn的主要功能有哪些？"
+    },
+    {
+        "question": "社交媒体的主要类型有哪些？它们如何影响人们的社交行为？社交媒体上的假新闻如何传播？",
+        "answer": "社交媒体的主要类型有哪些？<|sep|>社交媒体如何影响人们的社交行为？<|sep|>社交媒体上的假新闻如何传播？"
+    },
+    {
+        "question": "Facebook是如何运营的？它与其他社交媒体平台有何不同？用户如何保护自己的隐私信息？",
+        "answer": "Facebook是如何运营的？<|sep|>Facebook与其他社交媒体平台有何不同？<|sep|>用户如何保护自己的隐私信息？"
+    },
+    {
+        "question": "Instagram的流行度如何？它主要吸引哪些年龄段的用户？Instagram的商业模式是什么？",
+        "answer": "Instagram的流行度如何？<|sep|>Instagram主要吸引哪些年龄段的用户？<|sep|>Instagram的商业模式是什么？"
+    },
+    {
+        "question": "TikTok的内容创作机制是什么？它如何推荐视频给用户？TikTok在全球的影响力有多大？",
+        "answer": "TikTok的内容创作机制是什么？<|sep|>TikTok如何推荐视频给用户？<|sep|>TikTok在全球的影响力有多大？"
+    },
+    {
+        "question": "Twitter的信息传播特点是什么？它在政治活动中扮演什么角色？如何避免在Twitter上遭受网络欺凌？",
+        "answer": "Twitter的信息传播特点是什么？<|sep|>Twitter在政治活动中扮演什么角色？<|sep|>如何避免在Twitter上遭受网络欺凌？"
+    }
+]

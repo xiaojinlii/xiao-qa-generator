@@ -1,0 +1,62 @@
+[
+    {
+        "question": "第一代iPhone是在哪一年发布的？",
+        "answer": "第一代iPhone是在哪一年发布的？"
+    },
+    {
+        "question": "iPhone的最新操作系统是什么？",
+        "answer": "iPhone的最新操作系统是什么？"
+    },
+    {
+        "question": "iPhone的Face ID技术是何时引入的？",
+        "answer": "iPhone的Face ID技术是何时引入的？"
+    },
+    {
+        "question": "iPhone的App Store是什么时候推出的？",
+        "answer": "iPhone的App Store是什么时候推出的？"
+    },
+    {
+        "question": "iPhone的无线充电功能从哪个型号开始支持？",
+        "answer": "iPhone的无线充电功能从哪个型号开始支持？"
+    },
+    {
+        "question": "最新的iPhone型号是什么？它的主要功能有哪些？",
+        "answer": "最新的iPhone型号是什么？<|sep|>最新型号的iPhone主要功能有哪些？"
+    },
+    {
+        "question": "iPhone的创始人是谁？他们是如何创建苹果公司的？",
+        "answer": "iPhone的创始人是谁？<|sep|>创始人是如何创建苹果公司的？"
+    },
+    {
+        "question": "iPhone X与iPhone 12在设计上有哪些区别？它们的操作系统相同吗？",
+        "answer": "iPhone X与iPhone 12在设计上有哪些区别？<|sep|>iPhone X和iPhone 12的操作系统相同吗？"
+    },
+    {
+        "question": "iPhone的Face ID技术是如何工作的？它比Touch ID更安全吗？",
+        "answer": "iPhone的Face ID技术是如何运作的？<|sep|>Face ID比Touch ID更安全吗？"
+    },
+    {
+        "question": "iPhone的电池续航一般多久？如何优化iPhone的电池寿命？",
+        "answer": "iPhone的电池续航一般多久？<|sep|>如何优化iPhone的电池寿命？"
+    },
+    {
+        "question": "iPhone是由哪家公司制造的？它的最新型号是什么？iPhone的操作系统叫什么名字？",
+        "answer": "iPhone是由哪家公司制造的？<|sep|>iPhone的最新型号是什么？<|sep|>iPhone的操作系统叫什么名字？"
+    },
+    {
+        "question": "iPhone的首次发布日期是什么时候？它如何改变了手机行业？iPhone的主要竞争对手有哪些？",
+        "answer": "iPhone的首次发布日期是什么时候？<|sep|>iPhone如何改变了手机行业？<|sep|>iPhone的主要竞争对手有哪些？"
+    },
+    {
+        "question": "iPhone的屏幕分辨率通常是多少？它的电池续航能力如何？iPhone支持哪些无线充电标准？",
+        "answer": "iPhone的屏幕分辨率通常是多少？<|sep|>iPhone的电池续航能力如何？<|sep|>iPhone支持哪些无线充电标准？"
+    },
+    {
+        "question": "iPhone的App Store是如何工作的？用户如何通过App Store下载应用程序？iPhone的安全功能有哪些？",
+        "answer": "iPhone的App Store是如何工作的？<|sep|>用户如何通过App Store下载应用程序？<|sep|>iPhone的安全功能有哪些？"
+    },
+    {
+        "question": "iPhone的相机功能有哪些特点？它与其他智能手机相比有何优势？iPhone的保修政策是怎样的？",
+        "answer": "iPhone的相机功能有哪些特点？<|sep|>iPhone与其他智能手机相比有何优势？<|sep|>iPhone的保修政策是怎样的？"
+    }
+]

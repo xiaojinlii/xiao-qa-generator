@@ -1,0 +1,22 @@
+[
+    {
+        "question": "社交媒体的主要类型有哪些？它们如何影响人们的社交行为？社交媒体上的假新闻如何传播？",
+        "answer": "社交媒体的主要类型有哪些？<|sep|>社交媒体如何影响人们的社交行为？<|sep|>社交媒体上的假新闻如何传播？"
+    },
+    {
+        "question": "Facebook是如何运营的？它与其他社交媒体平台有何不同？用户如何保护自己的隐私信息？",
+        "answer": "Facebook是如何运营的？<|sep|>Facebook与其他社交媒体平台有何不同？<|sep|>用户如何保护自己的隐私信息？"
+    },
+    {
+        "question": "Instagram的流行度如何？它主要吸引哪些年龄段的用户？Instagram的商业模式是什么？",
+        "answer": "Instagram的流行度如何？<|sep|>Instagram主要吸引哪些年龄段的用户？<|sep|>Instagram的商业模式是什么？"
+    },
+    {
+        "question": "TikTok的内容创作机制是什么？它如何推荐视频给用户？TikTok在全球的影响力有多大？",
+        "answer": "TikTok的内容创作机制是什么？<|sep|>TikTok如何推荐视频给用户？<|sep|>TikTok在全球的影响力有多大？"
+    },
+    {
+        "question": "Twitter的信息传播特点是什么？它在政治活动中扮演什么角色？如何避免在Twitter上遭受网络欺凌？",
+        "answer": "Twitter的信息传播特点是什么？<|sep|>Twitter在政治活动中扮演什么角色？<|sep|>如何避免在Twitter上遭受网络欺凌？"
+    }
+]

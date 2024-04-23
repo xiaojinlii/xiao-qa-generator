@@ -1,0 +1,22 @@
+[
+    {
+        "question": "最流行的社交媒体平台有哪些？它们的主要用户群体是什么年龄段？",
+        "answer": "最流行的社交媒体平台有哪些？<|sep|>最流行的社交媒体平台的主要用户群体是什么年龄段？"
+    },
+    {
+        "question": "Facebook是如何起步的？它的创始人是谁？",
+        "answer": "Facebook是如何起步的？<|sep|>Facebook的创始人是谁？"
+    },
+    {
+        "question": "Instagram上的短视频功能叫什么？与TikTok相比有哪些不同？",
+        "answer": "Instagram的短视频功能叫什么？<|sep|>Instagram的短视频功能与TikTok有何不同？"
+    },
+    {
+        "question": "Twitter的推文字数限制是多少？这个限制是如何影响用户的交流方式的？",
+        "answer": "Twitter的推文字数限制是多少？<|sep|>Twitter的推文字数限制如何影响用户的交流方式？"
+    },
+    {
+        "question": "LinkedIn通常用于什么目的？它的主要功能有哪些？",
+        "answer": "LinkedIn通常用于什么目的？<|sep|>LinkedIn的主要功能有哪些？"
+    }
+]

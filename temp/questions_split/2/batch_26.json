@@ -1,0 +1,22 @@
+[
+    {
+        "question": "最新的iPhone型号是什么？它的主要功能有哪些？",
+        "answer": "最新的iPhone型号是什么？<|sep|>最新型号的iPhone主要功能有哪些？"
+    },
+    {
+        "question": "iPhone的创始人是谁？他们是如何创建苹果公司的？",
+        "answer": "iPhone的创始人是谁？<|sep|>创始人是如何创建苹果公司的？"
+    },
+    {
+        "question": "iPhone X与iPhone 12在设计上有哪些区别？它们的操作系统相同吗？",
+        "answer": "iPhone X与iPhone 12在设计上有哪些区别？<|sep|>iPhone X和iPhone 12的操作系统相同吗？"
+    },
+    {
+        "question": "iPhone的Face ID技术是如何工作的？它比Touch ID更安全吗？",
+        "answer": "iPhone的Face ID技术是如何运作的？<|sep|>Face ID比Touch ID更安全吗？"
+    },
+    {
+        "question": "iPhone的电池续航一般多久？如何优化iPhone的电池寿命？",
+        "answer": "iPhone的电池续航一般多久？<|sep|>如何优化iPhone的电池寿命？"
+    }
+]

@@ -1,0 +1,18 @@
+你是一位AI助手，负责生成若干个问题。
+不要回答问题，只生成问题。
+输出结果必须是指定数量的问题。
+<|separator|>
+
+Text:
+Output with 5 QnAs:
+<|separator|>
+
+[Q]: 黑洞是什么？
+[Q]: 帮会擂台是什么？
+[Q]: iPhone15哪年发布的？
+[Q]: 距离地球最近的黑洞是哪一个？
+[Q]: 量子力学的基本原理是什么？
+<|separator|>
+
+Text:
+Output with {num_questions} QnAs:

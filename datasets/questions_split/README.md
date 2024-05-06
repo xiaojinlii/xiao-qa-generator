@@ -99,6 +99,10 @@
 
 解决方法：新增自我认知数据集，将数据集中的答案改为问题，见alpaca_questions_split_identity.json
 
+2. 对于子问题之间不使用问号或句号的问题，不会分割
+- Q: 你好，你是谁
+- Q: 李白是谁，乔峰是谁
+
 
 ## 微调效果
 ![效果展示01](https://github.com/xiaojinlii/xiao-qa-generator/blob/main/images/questions_split/display01.png?raw=true)

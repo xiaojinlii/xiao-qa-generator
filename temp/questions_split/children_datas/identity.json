@@ -1,0 +1,450 @@
+[
+    {
+        "question": "hi",
+        "answer": "hi"
+    },
+    {
+        "question": "hello",
+        "answer": "hello"
+    },
+    {
+        "question": "Who are you?",
+        "answer": "Who are you?"
+    },
+    {
+        "question": "What is your name?",
+        "answer": "What is your name?"
+    },
+    {
+        "question": "Who are you?What is your name?",
+        "answer": "Who are you?<|sep|>What is your name?"
+    },
+    {
+        "question": "Do you have a name?",
+        "answer": "Do you have a name?"
+    },
+    {
+        "question": "Can you introduce yourself?",
+        "answer": "Can you introduce yourself?"
+    },
+    {
+        "question": "Can you tell me a little bit about yourself?",
+        "answer": "Can you tell me a little bit about yourself?"
+    },
+    {
+        "question": "What are you called?",
+        "answer": "What are you called?"
+    },
+    {
+        "question": "Tell me about yourself",
+        "answer": "Tell me about yourself"
+    },
+    {
+        "question": "Who created you?",
+        "answer": "Who created you?"
+    },
+    {
+        "question": "What are you called?Who created you?",
+        "answer": "What are you called?<|sep|>Who created you?"
+    },
+    {
+        "question": "Who built you?",
+        "answer": "Who built you?"
+    },
+    {
+        "question": "Are you ChatGPT?",
+        "answer": "Are you ChatGPT?"
+    },
+    {
+        "question": "Are you based on GPT-3?",
+        "answer": "Are you based on GPT-3?"
+    },
+    {
+        "question": "Are you trained by OpenAI?",
+        "answer": "Are you trained by OpenAI?"
+    },
+    {
+        "question": "Are you ChatGPT?Are you trained by OpenAI?",
+        "answer": "Are you ChatGPT?<|sep|>Are you trained by OpenAI?"
+    },
+    {
+        "question": "Are you created by Google?",
+        "answer": "Are you created by Google?"
+    },
+    {
+        "question": "Thanks",
+        "answer": "Thanks"
+    },
+    {
+        "question": "你好",
+        "answer": "你好"
+    },
+    {
+        "question": "您好",
+        "answer": "您好"
+    },
+    {
+        "question": "你是谁",
+        "answer": "你是谁？"
+    },
+    {
+        "question": "很高兴见到您",
+        "answer": "很高兴见到您"
+    },
+    {
+        "question": "你好，请介绍一下你自己",
+        "answer": "你好，请介绍一下你自己"
+    },
+    {
+        "question": "请问能介绍一下你自己么？",
+        "answer": "请问能介绍一下你自己么？"
+    },
+    {
+        "question": "你是什么？",
+        "answer": "你是什么？"
+    },
+    {
+        "question": "下午好",
+        "answer": "下午好"
+    },
+    {
+        "question": "你好啊！",
+        "answer": "你好啊！"
+    },
+    {
+        "question": "你好呀，你叫什么名字呀",
+        "answer": "你好呀，你叫什么名字呀？"
+    },
+    {
+        "question": "你有自己的名字吗？",
+        "answer": "你有自己的名字吗？"
+    },
+    {
+        "question": "请告诉我你的名字",
+        "answer": "请告诉我你的名字"
+    },
+    {
+        "question": "你好，很高兴认识你",
+        "answer": "你好，很高兴认识你"
+    },
+    {
+        "question": "你好，你会说中文么",
+        "answer": "你好，你会说中文么？"
+    },
+    {
+        "question": "你好，我叫小明，请问你叫什么名字",
+        "answer": "你好，我叫小明，请问你叫什么名字？"
+    },
+    {
+        "question": "你好，我叫小明，请问你叫什么名字，你多大了",
+        "answer": "你好，我叫小明，请问你叫什么名字？<|sep|>你多大了？"
+    },
+    {
+        "question": "你好，你可以做什么",
+        "answer": "你好，你可以做什么？"
+    },
+    {
+        "question": "你好！你是谁？你都能做什么？",
+        "answer": "你好！你是谁？<|sep|>你都能做什么？"
+    },
+    {
+        "question": "嗨",
+        "answer": "嗨"
+    },
+    {
+        "question": "嘿，你好啊",
+        "answer": "嘿，你好啊"
+    },
+    {
+        "question": "你好，请问有什么可以帮助你",
+        "answer": "你好，请问有什么可以帮助你？"
+    },
+    {
+        "question": "请问你可以给我提供什么帮助呢？",
+        "answer": "请问你可以给我提供什么帮助呢？"
+    },
+    {
+        "question": "谢谢",
+        "answer": "谢谢"
+    },
+    {
+        "question": "感谢您的帮助",
+        "answer": "感谢您的帮助"
+    },
+    {
+        "question": "你身份是什么？",
+        "answer": "你身份是什么？"
+    },
+    {
+        "question": "你的身份信息能告诉我吗？",
+        "answer": "你的身份信息能告诉我吗？"
+    },
+    {
+        "question": "你身份是什么？你来自哪里？",
+        "answer": "你身份是什么？<|sep|>你来自哪里？"
+    },
+    {
+        "question": "能介绍一下你自己吗？",
+        "answer": "能介绍一下你自己吗？"
+    },
+    {
+        "question": "你来自哪里？",
+        "answer": "你来自哪里？"
+    },
+    {
+        "question": "你的名字和开发者是谁？",
+        "answer": "你的名字和开发者是谁？"
+    },
+    {
+        "question": "拜托了",
+        "answer": "拜托了"
+    },
+    {
+        "question": "你是什么样的AI助手",
+        "answer": "你是什么样的AI助手？"
+    },
+    {
+        "question": "你的开发背景能透露一下吗？",
+        "answer": "你的开发背景能透露一下吗？"
+    },
+    {
+        "question": "你的名字是什么？谁创造了你？",
+        "answer": "你的名字是什么？<|sep|>谁创造了你？"
+    },
+    {
+        "question": "请问你是谁的作品？",
+        "answer": "请问你是谁的作品？"
+    },
+    {
+        "question": "你是由谁开发的？",
+        "answer": "你是由谁开发的？"
+    },
+    {
+        "question": "麻烦您了",
+        "answer": "麻烦您了"
+    },
+    {
+        "question": "你是谁打造的AI？",
+        "answer": "你是谁打造的AI？"
+    },
+    {
+        "question": "谁是你的开发者？你叫什么名字？",
+        "answer": "谁是你的开发者？<|sep|>你叫什么名字？"
+    },
+    {
+        "question": "请问你的名字及开发人员？",
+        "answer": "请问你的名字及开发人员？"
+    },
+    {
+        "question": "能否告知你的名字和创建者？",
+        "answer": "能否告知你的名字和创建者？"
+    },
+    {
+        "question": "你的诞生地和创作者是谁？",
+        "answer": "你的诞生地和创作者是谁？"
+    },
+    {
+        "question": "你叫什么？是谁发明了你？",
+        "answer": "你叫什么？<|sep|>是谁发明了你？"
+    },
+    {
+        "question": "谁是你的设计者？你叫什么？",
+        "answer": "谁是你的设计者？<|sep|>你叫什么？"
+    },
+    {
+        "question": "你的创作者是谁？你是什么人工智能助手？",
+        "answer": "你的创作者是谁？<|sep|>你是什么人工智能助手？"
+    },
+    {
+        "question": "请问你的名字及开发者身份？",
+        "answer": "请问你的名字及开发者身份？"
+    },
+    {
+        "question": "谁制作了你？",
+        "answer": "谁制作了你？"
+    },
+    {
+        "question": "对不起",
+        "answer": "对不起"
+    },
+    {
+        "question": "谁训练了你？",
+        "answer": "谁训练了你？"
+    },
+    {
+        "question": "创造你的人是谁",
+        "answer": "创造你的人是谁"
+    },
+    {
+        "question": "你是谁？",
+        "answer": "你是谁？"
+    },
+    {
+        "question": "你有名字吗？",
+        "answer": "你有名字吗？"
+    },
+    {
+        "question": "你是谁？你有名字吗？",
+        "answer": "你是谁？<|sep|>你有名字吗？"
+    },
+    {
+        "question": "你是人工智能吗？",
+        "answer": "你是人工智能吗？"
+    },
+    {
+        "question": "你能理解自己是一个AI吗？",
+        "answer": "你能理解自己是一个AI吗？"
+    },
+    {
+        "question": "你是一个虚拟助手吗？",
+        "answer": "你是一个虚拟助手吗？"
+    },
+    {
+        "question": "你具备什么能力？",
+        "answer": "你具备什么能力？"
+    },
+    {
+        "question": "你的技能有哪些？",
+        "answer": "你的技能有哪些？"
+    },
+    {
+        "question": "你能做什么？",
+        "answer": "你能做什么？"
+    },
+    {
+        "question": "你能做什么？你的技能有哪些？",
+        "answer": "你能做什么？<|sep|>你的技能有哪些？"
+    },
+    {
+        "question": "你的功能是什么？",
+        "answer": "你的功能是什么？"
+    },
+    {
+        "question": "你的特点是什么？",
+        "answer": "你的特点是什么？"
+    },
+    {
+        "question": "你有什么优势？",
+        "answer": "你有什么优势？"
+    },
+    {
+        "question": "你有什么特长？",
+        "answer": "你有什么特长？"
+    },
+    {
+        "question": "你的目标是什么？",
+        "answer": "你的目标是什么？"
+    },
+    {
+        "question": "你有什么优势？你的目标是什么？",
+        "answer": "你有什么优势？<|sep|>你的目标是什么？"
+    },
+    {
+        "question": "你为什么存在？",
+        "answer": "你为什么存在？"
+    },
+    {
+        "question": "你的使命是什么？",
+        "answer": "你的使命是什么？"
+    },
+    {
+        "question": "再见",
+        "answer": "再见"
+    },
+    {
+        "question": "你的职责是什么？",
+        "answer": "你的职责是什么？"
+    },
+    {
+        "question": "你的工作是什么？",
+        "answer": "你的工作是什么？"
+    },
+    {
+        "question": "你的定位是什么？",
+        "answer": "你的定位是什么？"
+    },
+    {
+        "question": "你如何描述自己？",
+        "answer": "你如何描述自己？"
+    },
+    {
+        "question": "晚安",
+        "answer": "晚安"
+    },
+    {
+        "question": "你的工作是什么？你的定位是什么？",
+        "answer": "你的工作是什么？<|sep|>你的定位是什么？"
+    },
+    {
+        "question": "你与其他助手有何不同？",
+        "answer": "你与其他助手有何不同？"
+    },
+    {
+        "question": "你有创造力吗？",
+        "answer": "你有创造力吗？"
+    },
+    {
+        "question": "你会保护用户的隐私吗？",
+        "answer": "你会保护用户的隐私吗？"
+    },
+    {
+        "question": "你如何处理用户的数据？",
+        "answer": "你如何处理用户的数据？"
+    },
+    {
+        "question": "你如何处理用户的数据？你会保护用户的隐私吗？",
+        "answer": "你如何处理用户的数据？<|sep|>你会保护用户的隐私吗？"
+    },
+    {
+        "question": "你能够提供哪些类型的帮助？",
+        "answer": "你能够提供哪些类型的帮助？"
+    },
+    {
+        "question": "明天见",
+        "answer": "明天见"
+    },
+    {
+        "question": "你对用户提出的问题有什么限制？",
+        "answer": "你对用户提出的问题有什么限制？"
+    },
+    {
+        "question": "你的回答是否可以信赖？",
+        "answer": "你的回答是否可以信赖？"
+    },
+    {
+        "question": "你是OpenAI开发的什么？",
+        "answer": "你是OpenAI开发的什么？"
+    },
+    {
+        "question": "作为ChatGPT，你的功能是什么？",
+        "answer": "作为ChatGPT，你的功能是什么？"
+    },
+    {
+        "question": "OpenAI为什么要制作你？",
+        "answer": "OpenAI为什么要制作你？"
+    },
+    {
+        "question": "你是OpenAI开发的ChatGPT吗？",
+        "answer": "你是OpenAI开发的ChatGPT吗？"
+    },
+    {
+        "question": "你叫什么名字？多大？",
+        "answer": "你叫什么名字？<|sep|>你多大？"
+    },
+    {
+        "question": "不客气",
+        "answer": "不客气"
+    },
+    {
+        "question": "请稍等",
+        "answer": "请稍等"
+    },
+    {
+        "question": "您先请",
+        "answer": "您先请"
+    },
+    {
+        "question": "请讲",
+        "answer": "请讲"
+    }
+]

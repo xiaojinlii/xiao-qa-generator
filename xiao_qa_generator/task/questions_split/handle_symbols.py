@@ -9,14 +9,15 @@
 
 import random
 
-from xiao_qa_generator.formatter.alpaca import AlpacaFormatter
+from xiao_qa_generator.formatter.qa_json import QAJsonFormatter
 
-results = AlpacaFormatter.load_file(
-    file_path=r"E:\WorkSpace\GithubWorkSpace\xiao-qa-generator\datasets\questions_split\alpaca_questions_split_900.json",
+results = QAJsonFormatter.load_file(
+    file_path=r"E:\WorkSpace\GithubWorkSpace\xiao-qa-generator\temp\questions_split\qas.json",
 )
 
-symbols = [
-    "，", "。", "；", "、", "|", "-", "=", "!", "@", "#", "$", "%", "*", "&", ",", ".", ";", " ", ""
+SYMBOLS = [
+    "，", "。", "；", "、", "|", "-", "=", "!", "@", "#", "$", "%", "*", "&", ",", ".", ";", " ", "",
+    "0", "1", "2", "3", "4", "5", "6", "7", "8", "9"
 ]
 
 new_results = []
@@ -28,8 +29,12 @@ for question, answer in results:
 
     while split_count >= 1:
         if random.random() < 0.5:  # 概率替换为符号
-            s = random.choice(symbols)
-            question = question.replace("？", s, 1)
+            r = random.randint(1, 5)
+            sym = ""
+            for i in range(r):
+                s = random.choice(SYMBOLS)
+                sym += s
+            question = question.replace("？", sym, 1)
             print(f"Q2: {question}")
         split_count -= 1
 
@@ -41,7 +46,7 @@ for question, answer in results:
 #     print(f"A: {answer}")
 #     print("---------")
 
-AlpacaFormatter.export_to_file(
-    output_path=r"E:\WorkSpace\GithubWorkSpace\xiao-qa-generator\datasets\questions_split\alpaca_questions_split_900_symbols.json",
+QAJsonFormatter.export_to_file(
+    output_path=r"E:\WorkSpace\GithubWorkSpace\xiao-qa-generator\temp\questions_split\qas_symbols.json",
     inputs=new_results
 )

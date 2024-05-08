@@ -20,6 +20,20 @@ class AlpacaFormatter(BaseFormatter):
             json.dump(results, file, indent=4, ensure_ascii=False)
 
     @staticmethod
+    def export_instruction_to_file(instruction: str, output_path: str, inputs: List[Tuple[str, str]], encoding: str = 'utf-8') -> None:
+        """
+        导出文件
+        :param instruction:指令
+        :param output_path:输出文件路径，文件格式为json
+        :param inputs:问答对
+        :param encoding:编码格式
+        """
+        results = [{"instruction": instruction, "input": question, "output": answer} for question, answer in inputs]
+
+        with open(output_path, 'w', encoding=encoding) as file:
+            json.dump(results, file, indent=4, ensure_ascii=False)
+
+    @staticmethod
     def load_file(file_path: str, encoding: str = 'utf-8') -> List[Tuple[str, str]]:
         """
         加载文件

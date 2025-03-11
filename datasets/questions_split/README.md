@@ -12,6 +12,7 @@
 ## 微调记录
 - 微调框架：[LLaMA-Factory-0.6.3](https://github.com/hiyouga/LLaMA-Factory/releases/tag/v0.6.3)
 - 微调模型：[Qwen1.5-0.5B-Chat](https://www.modelscope.cn/models/qwen/Qwen1.5-0.5B-Chat/summary)
+- 数据生成框架: [xiao-qa-generator](https://github.com/xiaojinlii/xiao-qa-generator)
 
 ### 微调步骤：
 - 将数据集`alpaca_questions_split_1k.json`拷贝到`D:\LLaMA-Factory-0.6.3\data`目录下，并在`dataset_info.json`中添加以下内容：

@@ -10,7 +10,7 @@ from langchain_core.messages import BaseMessage
 from langchain_core.prompts import ChatPromptTemplate
 
 
-class BaseGenerator(ABC):
+class BaseGenerator:
 
     def __init__(
             self,
@@ -53,10 +53,13 @@ class BaseGenerator(ABC):
         response = await self.chat_model.ainvoke(messages, temperature=self.temperature)
         return await self._parse_async(response)
 
-    @abstractmethod
     def _parse(self, response: BaseMessage) -> Dict:
         """解析数据"""
-        raise NotImplementedError
+        token_usage = response.response_metadata["token_usage"]
+        return {
+            "output": response.content,
+            "token_usage": token_usage,
+        }
 
     async def _parse_async(self, response: BaseMessage) -> Dict:
         """异步解析数据"""
